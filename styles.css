@@ -67,13 +67,21 @@ button {
 
 /* descent selector  */
 footer {
+  height: 300px;
   background-color: #1d3557;
+}
+
+img {
+  height: 50px;
+  width: 50px;
 }
 footer a {
   color: #e63946;
 }
 
 nav {
+  width: 200px;
+  height: 100px;
   background-color: #264653;
 }
 /* attribute selector  */
@@ -81,13 +89,21 @@ input[type="text"] {
   color: #f4a261;
 }
 
-/* pseudo elements */
+/* pseudo classes */
 a:hover {
   background-color: #1a123d;
 }
 
 button:hover {
   background-color: #1a123d;
+}
+/* pseudo elements */
+h2::first-letter {
+  font-size: 40px;
+}
+
+p::selection {
+  background-color: #e9c46a;
 }
 
 /* games  */
