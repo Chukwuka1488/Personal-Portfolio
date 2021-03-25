@@ -10,31 +10,37 @@
   <body>
     <header><h1>Look Up Anything</h1></header>
     <main>
-      <h2>Hijacking Searches</h2>
-      <h3>Search Reddit</h3>
+      <h2 class="hijacking-searches">Hijacking Searches</h2>
+      <div class="search-web">
+        <img src="images/reddit.png" alt="Reddit" >
+      </div>
       <form action="https://www.reddit.com/search">
+      <div class="search-bar">
         <label for="search_reddit">Type in anything: </label>
         <input type="text" name="q" id="search_reddit" />
-        <br />
-        <br />
+      </div>
         <button>Search Reddit</button>
       </form>
-      <br />
-      <h3>Search Google</h3>
+      
+      <div class="search-web">
+        <img src="images/google.png" alt="Google" class="search_web">
+      </div>
       <form action="https://www.google.com/search">
+      <div class="search-bar">
         <label for="search_google">Type in anything: </label>
         <input type="text" name="q" id="search_google" />
-        <br />
-        <br />
+      </div>
         <button>Search Google</button>
       </form>
-      <br />
-      <h3>Search Youtube</h3>
+      
+      <div class="search-web">
+        <img src="images/youtube.png" alt="Youtube" class="search_web">
+      </div>
       <form action="https://www.youtube.com/results">
+      <div class="search-bar">
         <label for="search youtube">Type in anything: </label>
         <input type="text" name="search_query" id="search youtube" />
-        <br />
-        <br />
+      </div>
         <button>Search Youtube</button>
       </form>
 
@@ -92,6 +98,7 @@
         </li>
       </ul>
       <!-- contact and social media -->
+      <!-- add div with class social-media for reducing image size -->
       <a target="_blank" href="tel:+4917643398964"><img src="images/whatsapp.png" alt="Whatsapp" >
       </a></a>
       <a target="_blank" href="https://www.facebook.com/junior.akibor/">
