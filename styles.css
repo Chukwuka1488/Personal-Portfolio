@@ -11,9 +11,18 @@ body {
 }
 main {
   background-color: #a8dadc;
+  border-width: 5px;
+  border-color: #000;
+  border-style: solid;
+  box-sizing: border-box;
 }
 header {
   background-color: #e9c46a;
+  border-width: 5px;
+  border-color: #000;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 50px;
 }
 h1,
 h2 {
@@ -69,6 +78,10 @@ button {
 footer {
   height: 300px;
   background-color: #1d3557;
+  border-width: 5px;
+  border-color: #000;
+  border-style: solid;
+  box-sizing: border-box;
 }
 
 img {
@@ -78,11 +91,15 @@ img {
 footer a {
   color: #e63946;
 }
-
+/* adding border */
 nav {
   width: 200px;
   height: 100px;
   background-color: #264653;
+  border-width: 5px;
+  border-color: #000;
+  border-style: solid;
+  box-sizing: border-box;
 }
 /* attribute selector  */
 input[type="text"] {
