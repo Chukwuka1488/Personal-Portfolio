@@ -30,11 +30,15 @@
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
-    --fs-body: 1.12rem;
+    --fs-body: 1.125rem;
   }
 }
 
 /* General styles  */
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--clr-bg);
@@ -142,7 +146,7 @@ header {
 
 .nav {
   position: fixed;
-  background: var(--clr-text);
+  background: #16e0bd;
   color: var(--clr-bg);
   top: 0;
   bottom: 0;
@@ -173,6 +177,28 @@ header {
 }
 
 .nav__link:hover {
+  color: var(--clr-text);
+}
+
+.nav-open .nav {
+  transform: translateX(0);
+
+  /* background: red; */
+}
+
+.nav-open .nav-toggle {
+  position: fixed;
+}
+
+.nav-open .hamburger {
+  transform: rotate(0.625turn);
+}
+
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-6px);
+}
+.nav-open .hamburger::after {
+  opacity: 0;
   color: var(--clr-accent);
 }
 
