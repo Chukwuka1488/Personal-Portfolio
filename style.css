@@ -6,8 +6,8 @@
 
 /* custom properties for screen sizes and design  */
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: "Titillium Web", sans-serif;
+  --ff-secondary: "Farro", sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
